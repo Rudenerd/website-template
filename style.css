@@ -1,0 +1,63 @@
+body{
+  background-color: rgb(224, 202, 202);
+}
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin: 20px;
+    padding: 0px;
+    
+}
+
+.Case{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+    background-color: white;
+  }
+.card_two{
+  
+    width: 360px;
+    margin: 0 auto;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #ddebf8;
+    color: #2b2839;
+    border-bottom: 6px solid #d8cefe;
+}
+.card_two:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.card_three{
+  
+  width: 360px;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 15px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  background: #ddebf8;
+  color: #2b2839;
+  border-bottom: 6px solid #d8cefe;
+}
+.card_three:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.avatar{
+  border: 3px solid black ;
+  border-radius: 20px;
+}
